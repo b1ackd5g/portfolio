@@ -1,321 +1,208 @@
-<!doctype html>
-<html lang="ko">
-    <head>
-        <title>임세창</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-        <!--FAVICON-->
-        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-        <link rel="manifest" href="favicon/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-        <!--FONT-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <!--AOS-->
-        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    </head>
-    <body>
-        <header>
-            <div class="inner">
-                <h2>
-                    <a href="#">LIM SECHANG</a>
-                </h2>
-                <ul class="nav">
-                    <li><a href="#me">ABOUT</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#etc">WORKS</a></li>
-                </ul>
+<!DOCTYPE html>
+<html lang="KO">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동규 포트폴리오</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <!--#### header Start ####-->
+    <header>
+        <div class="header_inner">
+            <a href="index.html" class="logo">
+                <img src="image/logo.svg" alt="logo">
+            </a>
+            <div class="right_menu">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="contact_btn">문의하기</a>  
             </div>
-        </header>
-        <div class="wrap">
-            <section id="main">
-                <div class="square_ment">
-                    <div class="text">
-                    <h2>
-                        <strong class="split" aria-label="WELCOME TO MY"><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">W</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">E</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">L</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">C</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">O</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">M</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">E</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;"> </span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">T</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">O</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;"> </span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">M</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">Y</span></strong>
-                        <em class="split" aria-label="PORTFOLIO"><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">P</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">O</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">R</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">T</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">F</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">O</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">L</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">I</span><span aria-hidden="true" style="transform: translate(0px, 0px); opacity: 1;">O</span></em>
-                    </h2>
-                    <p>안녕하세요. <br>저의 포트폴리오에 오신 것을 환영합니다.<br></p>
-                    </div>
-                </div>
-            </section>
-            <section class="me" id="me">
-                <div data-aos="fade-up" class="inner">
-                    <div class="title">
-                      <h2 class="tit">ABOUT ME</h2>
-                    </div>
-                    <div class="me-story">
-                        <div class="item">
-                            <div class="me-img"></div>
-                        </div>
-                        <div data-aos="fade-up" class="item me-spec">
-                            <div class="profile">
-                                <div class="icon">
-                                    <p>
-                                        <img src="img/paper.png" alt="자기소개">
-                                    </p>
-                                </div>
-                                <div class="ment">
-                                    <b>퍼블리싱을 연구하는 웹 퍼블리셔</b><br>
-                                    나만의 기술을 발전시키기 위해 연구하며<br>
-                                    디자인적인 요소를 효과적으로 사용하기 위해 노력합니다.<br>
-                                    웹표준 및 웹접근성 퍼블리셔입니다.<br>
-                                    최신 기술을 알기위해 끊임없이 공부중입니다.
-                                </div>    
-                            </div>
-                            <div class="edu">
-                                <div class="icon">
-                                    <p>
-                                        <img src="img/namecard.png" alt="명함">
-                                    </p>
-                                </div>
-                                <div class="ment">
-                                    <b>임세창(LIM SE CHANG)</b><br><br>
-                                    2022.04 대구중앙직업전문학교 수료 <br>
-                                </div>    
-                            </div>
-                            <div class="contact">
-                                <div class="icon">
-                                    <p>
-                                        <img src="img/paperplane.png" alt="컨택트">
-                                    </p>
-                                </div>
-                                <div class="ment">
-                                    <a href="mailto:ausitn010537@gmail.com">
-                                        <img src="img/email.png" alt="메일">
-                                        <span>austin010537@gmail.com</span>
-                                    </a>
-                                </div>    
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="skills">
-                <div data-aos="fade-up" class="inner">
-                    <div class="title">
-                      <h2 class="tit">SKILLS</h2>
-                    </div>
-                    <div class="skill-graph">
-                        <div class="box">
-                            <div class="icon2 ps">
-                                <p>
-                                    <img src="img/ps.png" alt="포토샵">
-                                </p>
-                            </div>
-                            <div class="graph">
-                                <div data-width="85"> 
-                                <!--style="background: linear-gradient(to right, #3f51b5 0%, rgb(0, 212, 255) 100%);"-->
-                                    <span></span>
-                                    <span>85%</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="icon2 ai">
-                                <p>
-                                    <img src="img/ai.png" alt="일러스트">
-                                </p>
-                            </div>
-                            <div class="graph">
-                                <div data-width="70"> 
-                                <!--style="background: linear-gradient(to right, #f7e332 0%, #ff9a00 100%);"-->
-                                    <span></span>
-                                    <span>70%</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="icon2 html">
-                                <p>
-                                    <img src="img/html.png" alt="HTML/CSS">
-                                </p>
-                            </div>
-                            <div class="graph">
-                                <div data-width="90"> 
-                                <!--style="background: linear-gradient(to right, #98c1f7 0%, #0a74ff 100%);"-->
-                                    <span></span>
-                                    <span>90%</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="icon2 jq">
-                                <p>
-                                    <img src="img/jq.png" alt="제이쿼리">
-                                </p>
-                            </div>
-                            <div class="graph">
-                                <div data-width="75"> 
-                                <!--style="background: linear-gradient(to right, #8bc34a 0%, #2ba84a 100%);"-->
-                                    <span></span>
-                                    <span>75%</span>
-                                </div>
-                            </div>
-                        </div>    
-                    </div>
-                    <div data-aos="fade-up" class="skill-graph_pc">
-                        <div class="box">
-                            <div>
-                                <div class="pie animate" style="--p:85;--c:#00d4ff"> 85%</div>
-                                <div class="pie-ment">PHOTOSHOP</div>
-                            </div>
-                            <div>
-                                <div class="pie animate" style="--p:70;--c:#ff9a00"> 70%</div>
-                                <div class="pie-ment">ILLUSTRATOR</div>
-                            </div>
-                            <div>
-                                <div class="pie animate" style="--p:90;--c:#0a74ff"> 90%</div>
-                                <div class="pie-ment">HTML</div>
-                            </div>
-                            <div>
-                                <div class="pie animate" style="--p:75;--c:#2ba84a"> 75%</div>
-                                <div class="pie-ment">JQuery</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="etc">
-                <div data-aos="fade-up" class="etc_1 inner">
-                <h2 class="tit">WORKS<br>[PORTFOLIO]</h2>
-                <article class="portfolio active">
-                    <h3 class="num">01</h3>
-                    <div class="pofol_img">
-                        <figure>
-                            <img src="img/portfolio1.png" alt="project1">
-                        </figure>
-                        <div class="pofol_ment">
-                            <div>
-                                <h4>Starbucks Website Renewal</h4>
-                                <p>웹표준을 준수하여 만든 가장 기본형태의 웹사이트입니다.</p>
-                            </div>
-                            <div class="gosite">
-                                <a href="/index.html" target="_blank" class="more">VIEW SITE</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="portfolio">
-                    <h3 class="num">02</h3>
-                    <div class="pofol_img">
-                        <figure>
-                            <img src="img/portfolio2(1).png" alt="project2">
-                        </figure>
-                        <div class="pofol_ment">
-                            <div>
-                                <h4>The Museum visitor Website Renewal(Cafe24)</h4>
-                                <p>Cafe24를 이용하여 리뉴얼된 웹사이트입니다.</p>
-                            </div>
-                            <div class="gosite">
-                                <a href="https://austin01053737.cafe24.com/" target="_blank" class="more">VIEW SITE</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="portfolio">
-                    <h3 class="num">03</h3>
-                    <div class="pofol_img">
-                        <figure>
-                            <img src="img/portfolio3(1).png" alt="project3">
-                        </figure>
-                        <div class="pofol_ment">
-                            <div>
-                                <h4>종이의 집 Onepage</h4>
-                                <p>Onepage Scroll을 이용하여 제작한 웹사이트</p>
-                            </div>
-                            <div class="gosite">
-                                <a href="/onepage/index.html" target="_blank" class="more">VIEW SITE</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="portfolio">
-                    <h3 class="num">04</h3>
-                    <div class="pofol_img">
-                        <figure>
-                            <img src="img/portfolio4(1).png" alt="project1">
-                        </figure>
-                        <div class="pofol_ment">
-                            <div>
-                                <h4>Marshall Website Renewal</h4>
-                                <p>기획,디자인,퍼블리싱까지 웹표준을 준수하여 만든 웹사이트입니다.</p>
-                            </div>
-                            <div class="gosite">
-                                <a href="/marshall/index.html" target="_blank" class="more">VIEW SITE</a>
-                            </div>    
-                        </div>
-                    </div>
-                </article>
-                <article class="portfolio">
-                    <h3 class="num">05</h3>
-                    <div class="pofol_img">
-                        <figure>
-                            <img src="#" alt="project5">
-                        </figure>
-                        <div class="pofol_ment">
-                            <div>
-                                <h4>????????????</h4>
-                                <p>그누보드를 이용하여 사이트 전체구동이 가능하게 제작한 웹사이트입니다.</p>
-                            </div>
-                            <a href="http://godzezeb.dothome.co.kr/" target="_blank" class="more">VIEW SITE</a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-            </section>
         </div>
-        <footer>
-            <div class="wrap" style="opacity: 1;">
-                This page is optimized for Google Chrome.
-                <span class="copy">Copyright LIM SE CHANG 2022. All Rights Reserved.</span>
+    </header>
+    <!--#### header End ####-->
+
+    <!--#### hero Start ####-->
+    <section class="hero">
+        <!--<img src="hero.png" alt="메인 이미지">--> 
+        <video autoplay muted loop playsinline>
+            <source src="image/video_main_2.mp4" type="video/mp4">
+        </video>
+    </section> 
+    <!--#### hero End ####-->
+
+    <!--#### about Start ####-->
+    <section class="about">
+        <div>
+            <p>이노컴즈는 비즈니스 성장을 돕는 <strong>IT 전문 기업</strong>으로</p>
+            <p>웹·앱·플랫폼 및 AI 기반 서비스 등 전 산업 분야에서 <strong>실질적 성과를 도출</strong>하며</p>
+            <p>기획부터 운영까지 고객사와 원팀으로 협력하여 <strong>지속 가능한 결과물</strong>을 만들어갑니다.</p>
+        </div>
+        <div class="about_stats">
+            <!-- 정보1 -->
+            <div class="stat_item">
+                <span class="stat_label">SINCE</span>
+                <h2>2001</h2>
             </div>
-        </footer>
-        <script>
-            AOS.init({
-              duration: 1700
-            });
-        </script>
-        <!--script-->
-        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-        <script>
-            $(function() {
-                function test() {
-                    $(".graph > div ").each(function (i) {
-                        var $this  = $(this),
-                            location = $this.data('width');
-                        $this.css({'width' : location + '%'});
-                    });
-                }
-                if($().appear) {
-                    $('.graph').appear().on('appear', function() {
-                        test();
-                    });
-                } else {
-                    test();
-                }
-            });
-        </script>
-     </body>
+            <!-- 구분선 -->
+            <div class="stat_divider"></div>
+            <!-- 정보2 -->    
+            <div class="stat_item">
+                <span class="stat_label">PROJECT</span>
+                <h2>1000+</h2>
+            </div>     
+        </div>
+    </section>
+    <!--#### about End ####-->
+
+    <!--#### project Start ####-->
+    <section class="project">
+        
+        <!-- 타이틀 -->
+        <div class="section_title">
+            <h2>Project</h2>
+            <p>우리는 이런 일을 합니다.</p>
+        </div>
+
+        <!-- 프로젝트 목록 -->
+        <div class="project_list">
+            <!-- 프로젝트1 Start -->
+            <article class="project_card">
+                <div class="project_content">
+                    <h3>Application Development</h3>
+                    <p>웹·앱 및 플랫폼 구축 경험을 토대로 기획부터 운영까지 전 과정을 통합 지원하며 사용자 중심 설계와 안정적인 개발을 통해 실질적인 성과를 만드는 서비스를 제공합니다.</p>
+                    <div class="technique">
+                        <span>Technique</span>
+                        <ul class="technique_list">
+                            <li>Platform</li>
+                            <li>User Experience</li>
+                            <li>System</li>
+                            <li>Service</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project_image">
+                    <img src="image/project1.png" alt="project1">
+                </div>
+            </article>
+            <!-- 프로젝트1 End -->
+             <!-- 프로젝트2 Start -->
+            <article class="project_card">
+                <div class="project_content">
+                    <h3>AI Transformation</h3>
+                    <p>AI 기술과 데이터 기반 혁신을 통해 기업의 디지털 전환을 지원하며 업무 자동화, 예측 분석, 생성형 AI 등 다양한 솔루션을 통해 운영 효율성과 새로운 비즈니스 가치를 제공합니다.</p>
+                    <div class="technique">
+                        <span>Technique</span>
+                        <ul class="technique_list">
+                            <li>Large Language Model(LLM)</li>
+                            <li>Intelligence</li>
+                            <li>Analysis</li>
+                            <li>Big Data</li>
+                            <li>LAG</li>
+                            <li>Learning</li>
+                            <li>Vision</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project_image">
+                    <img src="image/project2.png" alt="project2">
+                </div>
+            </article>
+            <!-- 프로젝트2 End -->
+             <!-- 프로젝트3 Start -->
+            <article class="project_card">
+                <div class="project_content">
+                    <h3>Enterprise Solutions</h3>
+                    <p>MES 및 생산·공정관리 등 기업 최적화 솔루션을 설계·구축하며 확장성과 안정성을 바탕으로 업무 효율을 극대화하고 지속 가능한 운영 환경을 제공하여 비즈니스 가치를 높입니다.</p>
+                    <div class="technique">
+                        <span>Technique</span>
+                        <ul class="technique_list">
+                            <li>Data Platform</li>
+                            <li>Dashboard</li>
+                            <li>Automation</li>
+                            <li>Management System</li>
+                            <li>Reporting</li>
+                            <li>Smart Factory</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project_image">
+                    <img src="image/project3.png" alt="project3">
+                </div>
+            </article>
+            <!-- 프로젝트3 End -->
+        </div>
+    </section>
+    <!--### project End ###-->
+
+    <!--###Contact Start ###-->
+    <section class="contact">
+        <!--장식 이미지-->
+        <img src="image/blue_sticker.svg" alt="파랑스티커" class="character_left" data-aos="fade-right">
+        <img src="image/red_sticker.svg" alt="빨강스티커" class="character_right" data-aos="fade-left">
+        <!--타이틀 js효과 추가-->
+        <div class="contact_title" data-aos="fade-up">
+            <h2>AlWAYS INTRESTED IN HEARING<br>ABOUT NEW PROJECT</h2>
+        </div>
+        <!--설명-->
+        <div class="contact_description">
+            <p>
+                이노컴즈는 언제나 즐거운 공간에서 재미있게 기술을 창조하기 위해 끊임없이 소통하고 노력합니다.<br>
+                여러분과 함께 새로운 세상을 만들기 위해 항상 이 자리에 있겠습니다.
+            </p>
+        </div>
+        <!--버튼-->
+        <a href="#" class="contact_button">VIEW ALL PORTFOLIO</a>
+    </section>
+    <!--###Contact End ###-->
+
+    <!--###footer Etart ###-->
+    <footer class="footer">
+        <div class="footer_inner">
+            <!-- 회사 정보 -->
+            <div class="footer_info">
+                <h3>Donggyu LIM</h3>
+                <p><strong>Address.</strong></p>
+                <p><strong>Tel.</strong>1544-8310</p>
+                <p><strong>Email.</strong>austin010537@gmail.com</p>
+            </div>
+            <!-- 구분선 -->
+            <div class="footer_divider">
+            </div>
+            <!-- 하단 정보 -->
+            <div class="footer_bottom">
+                <p class="copyright">
+                    © 2026 Donggyu LIM. All rights reserved.
+                </p>
+                <!-- 태그 -->
+                 <div class="footer_tag">
+                    <span>Product Designer</span>
+                    <span>UX/UI</span>
+                 </div>
+            </div>
+            <!-- 대형 로고 -->
+             <div class="footer_logo">
+                <img src="image/footer_logo.svg" alt="로고">
+             </div>
+        </div>
+    </footer>
+    <!--###footer End ###-->
+
+    <!-- ### JavaScript Start ### -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <!-- ### JavaScript End ### -->
+</body>
 </html>
